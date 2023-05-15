@@ -1,10 +1,17 @@
 {
   "name": "oppnys-server-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "oppnys download remote repository by command",
   "main": "./lib/index.js",
+  "homepage": "https://github.com/oppnys/oppnys-server-cli/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oppnys/oppnys-server-cli.git"
+  },
+  "readmeFilename": "README.md",
   "bin": {
-    "osc": "./lib/index.js"
+    "oppnys-server-cli": "./lib/index.js",
+    "opsc": "./lib/index.js"
   },
   "directories": {
     "lib": "src"
@@ -12,10 +19,11 @@
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
+    "depy": "npm run build && npm run publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["cli", "oppnys", "nodejs"],
+  "author": "oppnys",
   "license": "ISC",
   "dependencies": {
     "commander": "^10.0.0",
