@@ -1,6 +1,6 @@
 {
   "name": "oppnys-server-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "oppnys download remote repository by command",
   "main": "./lib/index.js",
   "homepage": "https://github.com/oppnys/oppnys-server-cli/blob/master/README.md",
