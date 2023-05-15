@@ -1,0 +1,1 @@
+export const vueRepo = 'direct:https://gitee.com/li_de_sheng970311/codewolf-vue-temp.git'
