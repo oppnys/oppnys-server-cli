@@ -7,13 +7,10 @@ Usage: osc [options] [command]
 
 Options:
   -V --version                                 output the version number
-  -w --why                                     a why cli
   -d --dest <dest>                             a destination folder
-  -f --framework <framework>                   for your framework e.vue,react
   -p, --port <number>                          port number
   -h, --help                                   display help for command
 
 Commands:
   create <peoject> <templateRepo> [others...]  clone repository into folder
-
 ```
