@@ -19,7 +19,7 @@
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
-    "depy": "npm run build && npm run publish",
+    "depy": "npm run build && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["cli", "oppnys", "nodejs"],
